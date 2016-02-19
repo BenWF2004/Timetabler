@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>TimeTabler&copy; - By BenWF2004</title>
+    <link rel="stylesheet" type="text/css" href=".\after-move-item.css">
+	<link rel="stylesheet" type="text/css" href=".\other.css">
+    <link rel="stylesheet" type="text/css" href=".\pre-move-item.css">
+	<link rel="stylesheet" type="text/css" href=".\object-color-code.css">
+	<script type="text/javascript" src=".\script1.js"></script>
+	<script type="text/javascript" src=".\script2.js"></script>
+    <script type="text/javascript" src=".\moving-object.js"></script>
+</head>
+<body>
+<div  class="wraper">
+    <div>Drag an item to copy it to the timetable.</div><br />
+	<div style="width:700px;">
+		<div class="left">
+			<table>
+                <b id="padding-12px">Subjects</b>
+                <tr>
+					<td><div class="item" id="CoreSubject">Mathematics</div></td>
+				</tr>
+				<tr>
+					<td><div class="item" id="CoreSubject">English</div></td>
+				</tr>
+				<tr>
+					<td><div class="item" id="CoreSubject">Science</div></td>
+				</tr>
+                <tr>
+					<td><div class="item" id="SecondrySubject">Computing</div></td>
+				</tr>
+                <tr>
+					<td><div class="item" id="SecondrySubject">Geography</div></td>
+				</tr>
+                <tr>
+					<td><div class="item" id="SecondrySubject">History</div></td>
+				</tr>
+				<tr>
+					<td><div class="item" id="SecondrySubject">Spanish</div></td>
+				</tr>
+                <tr>
+					<td><div class="item" id="SecondrySubject">PSHCE</div></td>
+				</tr>
+                <tr>
+					<td><div class="item" id="SecondrySubject">French</div></td>
+				</tr>
+				<tr>
+					<td><div class="item" id="SecondrySubject">Music</div></td>
+				</tr>
+                <tr>
+					<td><div class="item" id="SecondrySubject">Latin</div></td>
+				</tr>
+				<tr>
+					<td><div class="item" id="SecondrySubject">Art</div></td>
+                </tr>
+                <tr>
+					<td><div class="item" id="SecondrySubject">PRE</div></td>
+				</tr>
+                <tr>
+					<td><div class="item" id="SecondrySubject">PE</div></td>
+				</tr>
+                <tr>
+					<td><div class="item" id="SecondrySubject">DT</div></td>
+				</tr>
+                <tr>
+					<td><div class="item" id="ClubSubject">xxxxx Club</div></td>
+				</tr>
+                <tr>
+					<td><div class="item" id="ClubSubject">xxxx Club</div></td>
+				</tr>
+                <tr>
+					<td><div class="item" id="ClubSubject">xxxx Club</div></td>
+				</tr>
+                <tr>
+					<td><div class="item" id="OtherSubject">Form Time</div></td>
+				</tr>
+                <tr>
+					<td><div class="item" id="OtherSubject">Assembly</div></td>
+				</tr>
+                <tr>
+					<td><div class="item" id="BreakSubject">Lunch</div></td>
+				</tr>
+                <tr>
+					<td><div class="item" id="BreakSubject">Break</div></td>
+				</tr>
+                <tr>
+					<td><div class="item" id="BreakSubject">Home</div></td>
+				</tr>
+                <tr>
+					<td><div class="item">
+                        <form>
+                            <input type="text" class="custom-item" value="Custom item">
+                        </form>
+                    </div></td>
+				</tr>
+            </table>
+        </div>
+        <div class="time-right-hrs">
+			<table>
+                <b id="padding-4px">Hours</b>
+                <tr>
+					<td><div class="time" id="HrsSubject">08</div></td>
+				</tr>
+                <tr>
+					<td><div class="time" id="HrsSubject">09</div></td>
+				</tr>
+                <tr>
+					<td><div class="time" id="HrsSubject">10</div></td>
+				</tr>
+                <tr>
+					<td><div class="time" id="HrsSubject">11</div></td>
+				</tr>
+                <tr>
+					<td><div class="time" id="HrsSubject">12</div></td>
+				</tr>
+                <tr>
+					<td><div class="time" id="HrsSubject">13</div></td>
+				</tr>
+                <tr>
+					<td><div class="time" id="HrsSubject">14</div></td>
+				</tr>
+                <tr>
+					<td><div class="time" id="HrsSubject">15</div></td>
+				</tr>
+                <tr>
+					<td><div class="time" id="HrsSubject">16</div></td>
+				</tr>
+            </table>
+        </div>
+        <div class="time-right-min">
+			<table>
+                <b id="padding-1px">Minutes</b>
+                <tr>
+					<td><div class="time" id="MinSubject">00</div></td>
+				</tr>
+                <tr>
+					<td><div class="time" id="MinSubject">05</div></td>
+				</tr>
+                <tr>
+					<td><div class="time" id="MinSubject">10</div></td>
+				</tr>
+                <tr>
+					<td><div class="time" id="MinSubject">15</div></td>
+				</tr>
+                <tr>
+					<td><div class="time" id="MinSubject">20</div></td>
+				</tr>
+                <tr>
+					<td><div class="time" id="MinSubject">25</div></td>
+				</tr>
+                <tr>
+					<td><div class="time" id="MinSubject">30</div></td>
+				</tr>
+                <tr>
+					<td><div class="time" id="MinSubject">35</div></td>
+				</tr>
+                <tr>
+					<td><div class="time" id="MinSubject">40</div></td>
+				</tr>
+                <tr>
+					<td><div class="time" id="MinSubject">45</div></td>
+				</tr>
+                <tr>
+					<td><div class="time" id="MinSubject">50</div></td>
+				</tr>
+                <tr>
+					<td><div class="time" id="MinSubject">55</div></td>
+				</tr>
+			</table>
+		</div>
+		<div class="right">
+			<table>
+				<tr>
+                    <td class="title">Hours</td>
+                    <td class="blank"></td>
+					<td class="title">Minutes</td>
+                    <td class="blank">|</td>
+					<td class="title">Monday</td>
+					<td class="title">Tuesday</td>
+					<td class="title">Wednesday</td>
+					<td class="title">Thursday</td>
+					<td class="title">Friday</td>
+				</tr>
+				<tr>
+                    <td class="drop"></td>
+                    <td class="title">:</td>
+                    <td class="drop"></td>
+                    <td class="title">|</td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+				</tr>
+				<tr>
+                    <td class="drop"></td>
+                    <td class="title">:</td>
+                    <td class="drop"></td>
+                    <td class="title">|</td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+				</tr>
+               <tr>
+                    <td class="drop"></td>
+                    <td class="title">:</td>
+                    <td class="drop"></td>
+                    <td class="title">|</td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+				</tr>
+                <tr>
+                    <td class="drop"></td>
+                    <td class="title">:</td>
+                    <td class="drop"></td>
+                    <td class="title">|</td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+				</tr>
+		        <tr>
+                    <td class="drop"></td>
+                    <td class="title">:</td>
+                    <td class="drop"></td>
+                    <td class="title">|</td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+				</tr>
+                <tr>
+                    <td class="drop"></td>
+                    <td class="title">:</td>
+                    <td class="drop"></td>
+                    <td class="title">|</td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+				</tr>
+                <tr>
+                    <td class="drop"></td>
+                    <td class="title">:</td>
+                    <td class="drop"></td>
+                    <td class="title">|</td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+				</tr>
+                <tr>
+					<td class="drop"></td>
+                    <td class="title">:</td>
+					<td class="drop"></td>
+                    <td class="title">|</td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+				</tr>
+				<tr>
+                    <td class="drop"></td>
+                    <td class="title">:</td>
+                    <td class="drop"></td>
+                    <td class="title">|</td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+				</tr>
+                <tr>
+                    <td class="drop"></td>
+                    <td class="title">:</td>
+					<td class="drop"></td>
+                    <td class="title">|</td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+				</tr>
+                <tr>
+                    <td class="drop"></td>
+                    <td class="title">:</td>
+					<td class="drop"></td>
+                    <td class="title">|</td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+				</tr>
+                
+                <tr>
+                    <td class="drop"></td>
+                    <td class="title">:</td>
+                    <td class="drop"></td>
+                    <td class="title">|</td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+				</tr>
+                <tr>
+                    <td class="drop"></td>
+                    <td class="title">:</td>
+					<td class="drop"></td>
+                    <td class="title">|</td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+					<td class="drop"></td>
+				</tr>
+                <tr>
+                    <td class="drop"></td>
+                    <td class="title">:</td>
+					<td class="drop"></td>
+                    <td class="title">|</td>
+					<td class="title"></td>
+					<td class="lunch" colspan="4">Home</td>
+				</tr>
+			</table>
+		</div>
+    <textarea class="description-box1">This is where you can write a description for your timetable!</textarea>
+    </div>
+    </div>  
+    </body>
+</html>

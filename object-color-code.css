@@ -1,0 +1,21 @@
+#CoreSubject{
+    border: 1px solid black;
+}
+#SecondrySubject{
+    border: 1px solid red;
+}
+#BreakSubject{
+    border: 1px solid green;
+}
+#OtherSubject{
+    border: 1px solid orange;
+}
+#ClubSubject{
+    border: 1px solid purple;
+}
+#MinSubject{
+    border: 1px solid blue;
+}
+#HrsSubject{
+    border: 1px solid #000099;
+}
